@@ -32,14 +32,3 @@ Para entender el código de esta aplicación, necesitas estar familiarizado con:
 <p align="center">
   <img src="captura/Screenshot_20250623_215127.png" width="50%" alt="Captura de pantalla de Mars Photos">
 </p>
-
-## 🎓 Aprende a construir esta aplicación con los codelabs de Android Basics with Compose
-
-### [Obtén datos de Internet](https://developer.android.com/codelabs/basic-android-kotlin-compose-getting-data-internet)
-Aprende a usar librerías desarrolladas por la comunidad para conectarte a un servicio web y obtener y mostrar datos en tu aplicación de Android con Kotlin y Compose.
-
-### [Añade un repositorio e inyección de dependencias manual](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-repository)
-Aprende a mejorar la arquitectura de la aplicación separando las llamadas de red en una capa de repositorio.
-
-### [Carga y muestra imágenes de Internet](https://developer.android.com/codelabs/basic-android-kotlin-compose-load-images)
-Usa la librería Coil para cargar y mostrar fotos de Internet en tu aplicación de Android con Compose.
