@@ -1,34 +1,56 @@
-# 🚀 Mars Photos: Crónicas Marcianas 👽
+# Mars Photos 🪐🛰️
 
-¡Bienvenido a **Mars Photos**! 📸 Una aplicación de demostración que te trae las últimas imágenes de la superficie de Marte. ¡No son imágenes cualquiera, son fotos reales capturadas por los rovers de la NASA en el planeta rojo! 🛰️ Los datos se obtienen de un servicio web REST.
+![Mars Photos App Screenshot](./captura/Screenshot_20250705_213500.png)
 
-Esta aplicación demuestra el uso de tecnologías de vanguardia de Android:
+**Mars Photos** es una aplicación de demostración para Android que muestra imágenes reales de la superficie de Marte. Estas fotos son capturadas por los rovers de la NASA y se obtienen a través de un servicio web REST.
 
-*   **[Retrofit](https://square.github.io/retrofit/):** 🌐 para realizar solicitudes REST al servicio web.
-*   **[kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization):** 📦 para convertir la respuesta JSON en objetos de datos de Kotlin.
-*   **[Coil](https://coil-kt.github.io/coil/):** 🖼️ para cargar y mostrar imágenes desde una URL.
-*   **[Jetpack Compose](https://developer.android.com/jetpack/compose):** 🎨 para construir una interfaz de usuario moderna y declarativa.
+## ✨ Características
 
-## 📋 Prerrequisitos
+- Muestra una cuadrícula de fotos de Marte.
+- Carga de imágenes asíncrona desde una API remota.
+- Interfaz de usuario limpia y moderna construida con Jetpack Compose.
+- Manejo de estados de carga, éxito y error.
 
-Para entender el código de esta aplicación, necesitas estar familiarizado con:
+## 🛠️ Construido con
 
-*   Creación de funciones Composable.
-*   Uso de componentes de arquitectura como `ViewModel`.
-*   Uso de corrutinas para tareas de larga duración.
-*   El componente `LazyVerticalGrid` de Jetpack Compose.
+- [Kotlin](https://kotlinlang.org/) - Lenguaje de programación principal.
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Kit de herramientas de UI moderno para Android.
+- [Retrofit](https://square.github.io/retrofit/) - Cliente HTTP para realizar solicitudes a la API REST.
+- [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Para deserializar la respuesta JSON.
+- [Coil](https://coil-kt.github.io/coil/) - Para la carga de imágenes.
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Para gestionar los datos relacionados con la UI.
+- [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) - Para el manejo de tareas asíncronas.
 
-## 🚀 Cómo empezar
+## 🚀 Empezando
 
-1.  **[Instala Android Studio](https://developer.android.com/studio/install.html)**, si aún no lo tienes. 💻
-2.  **Descarga el proyecto.** 📥
-3.  **Importa el proyecto en Android Studio.** 📂
-4.  **¡Compila y ejecuta la aplicación!** ▶️
+Sigue estos pasos para tener una copia del proyecto funcionando en tu máquina local.
 
-## 🖼️ Captura de Pantalla
+### Prerrequisitos
 
-¡Así se ve la aplicación en acción!
+- [Android Studio](https://developer.android.com/studio) (versión Hedgehog o superior recomendada).
+- Conocimientos básicos de desarrollo en Android con Kotlin y Jetpack Compose.
 
-<p align="center">
-  <img src="captura/Screenshot_20250623_215127.png" width="50%" alt="Captura de pantalla de Mars Photos">
-</p>
+### Instalación
+
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/your-username/mars-photos.git
+   ```
+2. Abre el proyecto en Android Studio.
+3. Construye y ejecuta la aplicación.
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes alguna idea, sugerencia o encuentras un error, por favor abre un *issue* o envía un *pull request*.
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia Apache 2.0 - mira el archivo [LICENSE](LICENSE) para más detalles.
+
+## Codelabs Relacionados
+
+Este proyecto es la base de varios codelabs de Android Basics con Compose. Puedes encontrarlos aquí:
+
+- [Obtener datos de internet](https://developer.android.com/codelabs/basic-android-kotlin-compose-getting-data-internet)
+- [Agregar repositorio e Inyección de Dependencias Manual](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-repository)
+- [Cargar y mostrar imágenes de internet](https://developer.android.com/codelabs/basic-android-kotlin-compose-load-images)
