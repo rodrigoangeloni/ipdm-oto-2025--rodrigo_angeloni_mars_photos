@@ -1,6 +1,8 @@
 # Mars Photos 🪐🛰️
 
-![Mars Photos App Screenshot](./captura/Screenshot_20250705_213500.png)
+<div align="center">
+  <img src="./captura/Screenshot_20250705_213500.png" alt="Mars Photos App Screenshot" width="50%" />
+</div>
 
 **Mars Photos** es una aplicación de demostración para Android que muestra imágenes reales de la superficie de Marte. Estas fotos son capturadas por los rovers de la NASA y se obtienen a través de un servicio web REST.
 
@@ -34,7 +36,7 @@ Sigue estos pasos para tener una copia del proyecto funcionando en tu máquina l
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/your-username/mars-photos.git
+   git clone https://github.com/rodrigoangeloni/ipdm-oto-2025--rodrigo_angeloni_mars_photos.git
    ```
 2. Abre el proyecto en Android Studio.
 3. Construye y ejecuta la aplicación.
